@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:1299 #配置服务器
+      label: master #分支
+      name: aigou_service_provider #github上面名称
+      profile: dev #环境
